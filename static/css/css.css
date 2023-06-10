@@ -4,3 +4,9 @@
     color: black;
     font-size: 30px;
 }
+/* gestisco la grandezza del bottone*/
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: aqua;
+  }
