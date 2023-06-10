@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    <title>HomePage</title>
+</head>
+<body class="centro">
+    <h1> Benvenuti nel mio ristorante!</h1>
+    <form action="/Home" method = 'GET'>
+        <p>Clicca qui per andare al menu</p>
+        <input type="submit" value='Home'>
+    </form>
+    <br> 
+    <br> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.687626992817!2d9.156156876178803!3d45.473149571074146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1693db00001%3A0x716ef58563d6d2c4!2sAlessandro%20Borghese%20-%20Il%20lusso%20della%20semplicit%C3%A0!5e1!3m2!1sit!2sit!4v1686388567716!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <img src="/static/images/ristorante.jpg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">> 
+</body>
+</html>
